@@ -1,0 +1,7 @@
+.hotel-view {
+  background-color: var(--color-white);
+  /**
+    We want the container to occupy the remaining width
+  */
+  flex-grow: 1;
+}
