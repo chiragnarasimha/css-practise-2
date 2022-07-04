@@ -3,4 +3,28 @@
   flex-basis: 18%;
   flex-grow: none;
   flex-shrink: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.side-nav {
+  display: flex;
+  flex-direction: column;
+
+  &__item {
+  }
+  &__link {
+  }
+  &__icon {
+    width: 1.75rem;
+    height: 1.75rem;
+  }
+}
+
+.legal {
+  font-style: 1.2rem;
+  text-align: center;
+  padding: 2.5rem;
+  color: var(--color-grey-light-4);
 }

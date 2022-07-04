@@ -95,14 +95,31 @@ body {
   background-color: var(--color-grey-dark-1);
   flex-basis: 18%;
   flex-grow: none;
-  flex-shrink: none; }
+  flex-shrink: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; }
+
+.side-nav {
+  display: flex;
+  flex-direction: column; }
+  .side-nav__icon {
+    width: 1.75rem;
+    height: 1.75rem; }
+
+.legal {
+  font-style: 1.2rem;
+  text-align: center;
+  padding: 2.5rem;
+  color: var(--color-grey-light-4); }
 
 .hotel-view {
   background-color: var(--color-white);
   /**
     We want the container to occupy the remaining width
   */
-  flex-grow: 1; }
+  flex-grow: 1;
+  height: 60rem; }
 
 .logo {
   height: 3.25rem;
