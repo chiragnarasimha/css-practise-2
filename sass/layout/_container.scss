@@ -1,0 +1,14 @@
+.container {
+  /**
+        If there is enough space available, then the max-width is saying occupy maximum of 1200px. If it is not available, then occupy 100% of the width
+    */
+  max-width: 120rem;
+  margin: 8rem auto;
+  background-color: var(--color-grey-light-2);
+  box-shadow: var(--shadow-dark);
+  //-- DEBUG CODE
+  min-height: 50rem;
+  //-- DEBUG CODE
+
+  color: var();
+}
